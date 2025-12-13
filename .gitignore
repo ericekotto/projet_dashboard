@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Anaconda
+.conda/
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Données temporaires
+*.tmp
+*.bak
+data_kpi_clean.xlsx
+
+
+# Windows system folders (CRITICAL)
+AppData/
+3D Objects/
+Documents/
+Downloads/
+Desktop/
+
+# VS Code extensions (just in case)
+.vscode/extensions/
+
+# Jupyter checkpoints anywhere
+**/.ipynb_checkpoints/
+
+# Data science
+*.csv
+*.parquet
+*.feather
+
+# Secrets
+.env
+*.env
