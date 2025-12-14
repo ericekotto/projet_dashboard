@@ -463,4 +463,4 @@ if __name__ == '__main__':
     print("📍 Ouvrez votre navigateur à l'adresse: http://127.0.0.1:8050")
     print("🛑 Pour arrêter le serveur, appuyez sur Ctrl+C")
     print("="*80 + "\n")
-    app.run_server(debug=True, port=8050)  # ← CHANGEMENT ICI : .run au lieu de .run_server
+    app.run_server(debug=True)  # ← CHANGEMENT ICI : .run au lieu de .run_server
